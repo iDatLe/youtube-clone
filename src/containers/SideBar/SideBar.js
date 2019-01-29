@@ -12,7 +12,7 @@ class SideBar extends Component {
             <Menu vertical stackable borderless fixed='left' className='side-nav'>
                 <SideBarItem highlight={true}  label='Home' icon='home' />
                 <SideBarItem label='Trending' icon='fire'/>
-                <SideBarItem label='Followers' icon='spy'/>
+                <SideBarItem label='Subscriptions' icon='spy'/>
                 <Divider />
 
                 <SideBarHeader title='Library'/>

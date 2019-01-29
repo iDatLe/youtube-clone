@@ -19,7 +19,7 @@ exports[`Renders SideBar 1`] = `
   />
   <SideBarItem
     icon="spy"
-    label="Followers"
+    label="Subscriptions"
   />
   <Divider />
   <SideBarHeader
