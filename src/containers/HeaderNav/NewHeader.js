@@ -23,7 +23,7 @@
 //             </div>
 
 //         <div className="header__icons">
-//         <i class="fa fa-video-camera"></i>
+//         <i className="fa fa-video-camera"></i>
 
 //         </div>
 

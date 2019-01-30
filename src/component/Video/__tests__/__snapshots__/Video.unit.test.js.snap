@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="video-container"
+>
+  <div
+    className="video"
+  >
+    <iframe
+      allow="autoplay; encrypted-media"
+      allowFullScreen={true}
+      className="video-player"
+      frameBorder="0"
+      src="https://www.youtube.com/embed/-7fuHEEmEjs"
+      title="-7fuHEEmEjs"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders null if there is no video inside of it 1`] = `""`;
