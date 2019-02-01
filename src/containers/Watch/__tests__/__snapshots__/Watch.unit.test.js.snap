@@ -7,18 +7,10 @@ exports[`Watch renders 1`] = `
   <Video
     id="WMTx590rIMw"
   />
-  <div
+  <VideoMetadata
     className="metadata"
-    style={
-      Object {
-        "background": "#F91112",
-        "height": "100px",
-        "width": "100%",
-      }
-    }
-  >
-    Metadata
-  </div>
+    viewCount={1000}
+  />
   <div
     className="video-info-box"
     style={
