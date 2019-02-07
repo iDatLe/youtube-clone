@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoInfoBox render render collapsed 1`] = `
+<Fragment>
+  <div
+    className="video-info-box"
+  >
+    <Image
+      as="img"
+      circular={true}
+      className="channel-image"
+      src="http://via.placeholder.com/48x48"
+      ui={true}
+    />
+    <div
+      className="video-info"
+    >
+      <div
+        className="channel-name"
+      >
+        Channel Name
+      </div>
+      <div
+        className="video-publication-date"
+      >
+        Thu 24, 2017
+      </div>
+    </div>
+    <Button
+      as="button"
+      className="subscribe"
+      color="youtube"
+    >
+      91.5K Subscribe
+    </Button>
+    <div
+      className="video-description"
+    >
+      <div
+        className="expanded"
+      >
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+      </div>
+      <Button
+        as="button"
+        compact={true}
+        onClick={[Function]}
+      >
+        Show Less
+      </Button>
+    </div>
+  </div>
+  <Divider />
+</Fragment>
+`;
+
+exports[`VideoInfoBox render render expanded 1`] = `
+<Fragment>
+  <div
+    className="video-info-box"
+  >
+    <Image
+      as="img"
+      circular={true}
+      className="channel-image"
+      src="http://via.placeholder.com/48x48"
+      ui={true}
+    />
+    <div
+      className="video-info"
+    >
+      <div
+        className="channel-name"
+      >
+        Channel Name
+      </div>
+      <div
+        className="video-publication-date"
+      >
+        Thu 24, 2017
+      </div>
+    </div>
+    <Button
+      as="button"
+      className="subscribe"
+      color="youtube"
+    >
+      91.5K Subscribe
+    </Button>
+    <div
+      className="video-description"
+    >
+      <div
+        className="expanded"
+      >
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+        <p>
+          paragraphs
+        </p>
+      </div>
+      <Button
+        as="button"
+        compact={true}
+        onClick={[Function]}
+      >
+        Show Less
+      </Button>
+    </div>
+  </div>
+  <Divider />
+</Fragment>
+`;
