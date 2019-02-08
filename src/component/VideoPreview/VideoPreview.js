@@ -5,7 +5,6 @@ import './VideoPreview.scss';
 export function VideoPreview(props) {
 
     const horizontal = props.horizontal ? 'horizontal' : null;
-    console.log(horizontal, 'horizontal')
 
     return (
         <div className={['video-preview', horizontal].join(' ')}>

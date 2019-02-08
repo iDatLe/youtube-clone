@@ -16,13 +16,16 @@ export function VideoMetadata(props) {
 
                 <div className='video-actions' >
                     <Rating likeCount={1000} dislikeCount={100} />
+
                     <Button basic icon labelPosition='left'>
                         <Icon name='share' />
                         Share
                     </Button>
+
                     <Button basic icon>
                         <Icon name='ellipsis horizontal' />
                     </Button>
+                    
                 </div>
             </div>
             <Divider />

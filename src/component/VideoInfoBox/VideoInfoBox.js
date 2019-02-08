@@ -3,6 +3,7 @@ import './VideoInfoBox.scss';
 import { Image, Button, Divider } from 'semantic-ui-react';
 
 export function VideoInfoBox() {
+
     const [collapsed, setCollapsed] = useState(false);
 
     const onToggleCollapseButtonClick = () => {
