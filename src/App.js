@@ -9,8 +9,7 @@ import { connect } from 'react-redux';
 import { youtubeLibraryLoaded } from './store/actions/api';
 import './containers/Home/Home.scss';
 import './App.scss';
-
-const API_KEY = 'AIzaSyBjEXEIyg1i4cZ0omq42cd1bJaKXnixG0A';
+import { API_KEY } from '../configuration.js';
 
 function App() {
 
